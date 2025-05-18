@@ -1,13 +1,11 @@
 package br.com.crud_system;
 
-/**
- * Hello world!
- *
- */
+import br.com.crud_system.controller.CrudController;
+
 public class App {
-	public static void main(String[] args) {
-		
-		
-		System.out.println("Hello World!");
-	}
+    public static void main(String[] args) {
+        CrudController controller = new CrudController();
+        controller.iniciar();
+    }
 }
+
